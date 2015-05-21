@@ -1,0 +1,23 @@
+body {
+	font-size: 100%;
+	color: "black";
+	font-family: 'Vollkorn', serif;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+h1 {
+	
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 150%;
+}
+em {
+	font-style: italic;
+}
+.cohadar {
+	color: #BE0119;
+	font-style: normal;
+	font-weight: bolder;
+	font-variant: small-caps;
+}
+
+
