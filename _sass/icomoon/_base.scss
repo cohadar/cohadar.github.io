@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('/fonts/icomoon.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/icomoon.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/icomoon.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/icomoon.svg#icomoon') format('svg'); /* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;       
+}
+
+// Base styling for all icons
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-size: $socials-font-size;
+	line-height: $navbar-height;
+	color: $socials-font-color;
+	padding: 0 10px;
+	
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+// Base styling for individual icons
+.icon-email:before {
+	content: "\ea85";
+}
+.icon-linkedin:before {
+	content: "\eac9";
+}
+.icon-twitter:before {
+	content: "\ea91";
+}
+.icon-feed:before {
+	content: "\ea94";
+}
+.icon-github:before {
+	content: "\eab4";
+}
+.icon-steam:before {
+	content: "\eaad";
+}
+ 
+// Base styling for all icons with the :hover psuedoclass
+[class^="icon-"], [class*=" icon-"]:hover {
+	-moz-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+	-webkit-transition: all .2s ease-in;
+	transition: all .2s ease-in;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+// Colors for individual icons with the :hover psuedoclass
+.icon-email:hover {
+	color: #fff;
+}
+.icon-linkedin:hover {
+	color: #fff;
+}
+.icon-twitter:hover {
+	color: #fff;
+}
+.icon-feed:hover {
+	color: #fff;
+}
+.icon-github:hover {
+	color: #fff;
+}
+.icon-steam:hover {
+	color: #fff;
+}

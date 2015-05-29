@@ -1,22 +1,57 @@
+# Site settings
+title: Mighty Cohadar's Github Pages
+email: 
 
-# Base URL
-baseurl: /
+keywords: cohadar, mighty cohadar, damir cohadarevic
+description: > # this means to ignore newlines until "baseurl:"
+  Some random blog posts and links.
+
+# Base URL (make sure it has slash at the end)
+#baseurl: example/
 
 # Site live URL
-url: http://cohadar.github.io
+url: http://cohadar.github.io/
 
 # Localhost 
-# url: http://127.0.0.1:4000  
+#url: http://127.0.0.1:4000/
 
-# Conversion / Build settings 
-markdown:    kramdown
-# This is how you put pygments config in jekyll 2.0 instead of pygments: true
-highlighter: pygments 
+header: no
+header_sm: images/banner-small.jpg
+header_med: images/banner-med.jpg
+header_large: images/banner-large.jpg
+header_xl: images/banner-xl.jpg
 
-# Permalinks
-permalink:        pretty
 
-exclude: 
-  - CNAME
-  - README.md
-  - .gitignore
+# Exclude our ruby stuff
+exclude: [.bundle, bin, vendor, Gemfile, Gemfile.lock, Rakefile, s3_website.yml, .last_optimized]
+
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+destination: _site
+
+# Compress our Css
+#sass:
+#    style: :compressed
+
+permalink: /blog/:year/:month/:day/:title
+
+#### SEO Stuff
+# Google Analytics
+google_universal_analytics: 
+google_universal_analytics_cookiedomain: auto
+
+# Facebook Opengraph
+facebook_user:
+facebook_app_id:                      #enter your App ID
+facebook_locale: en_US
+facebook_page:                        #the URL of your Facebook Page
+facebook_image:                       #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
+
+# Twitter Cards
+twitter_user: 
+twitter_card: true
+twitter_image:                        #enter a default image (at least 200x200px) to use here for posts/pages that don't have one.
