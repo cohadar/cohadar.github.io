@@ -9,7 +9,8 @@
   external-subcategories:
     - subtitle: "SourceForge"
       subhref: "http://sourceforge.net/u/cohadar/profile/"
-    - subtitle: "Wc3Borderizer Online"
-      subhref: "http://wc3borderizer.appspot.com/"
     - subtitle: "Slim Pickens"
       subhref: "https://chrisanthropic.github.io/slim-pickins-jekyll-theme/"
+    - subtitle: "Wc3Borderizer Online"
+      subhref: "http://wc3borderizer.appspot.com/"
+      
