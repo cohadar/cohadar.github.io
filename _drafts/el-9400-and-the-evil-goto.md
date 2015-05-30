@@ -1,12 +1,12 @@
-The Evil GOTO
+---
+layout: post
+title: "EL-9400 and the Evil GOTO"
+sub-title: "asdaf asasd"
+date: 2015-05-30T16:44:01-08:00
+---
 
-In the last post I talked about how I was a disatvantaged kid who was the last one to see a computer of all his classmates; this of course is total bullshit, full truth, as always, is complicated.
-
-Some things are facts, I indeed never saw a computer with graphical user interface before my first class.
-And the reason I was so terrible at moving files around the desktop, as I later realized, was because I did not have motor skills to drag with the mouse, i.e. press and hold the mouse button and move the mouse at the same time, because of course I never SAW a mouse before. Couple that with the fact that I didn't know what is a "desktop", what is an icon, and how the hell can icon folder contain a file folder, insert the fact that you are the only one in the class who "does not get it" and you have a death spiral of negative emotions that dampens your IQ to idiot level.
-
-What I failed to mention, because I did not realize it at the time, was that I was already a programmer,
-while none of my classmates were.
+EL-9400 and the Evil GOTO
+and other misinformation
 
 The thing is I did have a computer for some 6 months before school, it was EL-9400,
 a programmable scientific calculator. The programming language was "basic", and extremely so.

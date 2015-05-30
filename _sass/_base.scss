@@ -76,6 +76,7 @@ a {
 
     &:visited {
         color: $link-visited-color;
+        text-decoration: none;
     }
 
     &:hover {
@@ -90,7 +91,7 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: darken($body-bg, 25%);
+    color: darken($body-bg, 45%);
     border-left: 4px solid lighten($complimentary-color, 35%);
     padding-left: $spacing-unit / 2;
     font-size: 18px;

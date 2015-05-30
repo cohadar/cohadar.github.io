@@ -1,7 +1,7 @@
 slim-pickins-jekyll-theme
 =============
 
-bundle exec jekyll serve
+bundle exec jekyll serve --drafts
 
 Live Demo [HERE](http://chrisanthropic.github.io/slim-pickins-jekyll-theme/)
 
