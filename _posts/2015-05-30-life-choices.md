@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Life Choices"
-date: 2015-05-30T16:44:01-08:00
+date: 2015-05-30T20:45:00+01:00
 ---
-
 
 ## .. or how I became a programmer
 
