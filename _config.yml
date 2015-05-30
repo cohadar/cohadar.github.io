@@ -6,14 +6,14 @@ keywords: cohadar, mighty cohadar, damir cohadarevic
 description: > # this means to ignore newlines until "baseurl:"
   Some random blog posts and links.
 
-# Base URL (make sure it has slash at the end)
-#baseurl: example/
+# Base URL (make sure it has no slashes at the start or end)
+baseurl: ""
 
-# Site live URL
-url: http://cohadar.github.io/
+# Site live URL, no slash at the end
+url: http://cohadar.github.io
 
 # Localhost 
-#url: http://127.0.0.1:4000/
+#url: http://127.0.0.1:4000
 
 header: no
 header_sm: images/banner-small.jpg
@@ -37,7 +37,7 @@ destination: _site
 #sass:
 #    style: :compressed
 
-permalink: /blog/:year/:month/:day/:title
+permalink: :year/:month/:day/:title
 
 #### SEO Stuff
 # Google Analytics
