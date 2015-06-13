@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Programming languages that don't suck"
-date: 2015-06-13T12:45:00+01:00
+date: 2015-06-13T13:48:00+01:00
 ---
 
 Of course *don't suck* is just my personal binary classification here, but I do have a definition for it.
