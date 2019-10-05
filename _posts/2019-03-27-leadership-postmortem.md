@@ -14,3 +14,6 @@ Horror stories about middlemanagement in software engineering are b
 Because we were late, thare was a considerable damage to the team.
 Some context first: 
 
+Bluez behaviour during interview process.
+
+Blue has absolutely no positive contributions
