@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
 
 # Site live URL, no slash at the end
-url: http://cohadar.github.io
+url: https://cohadar.github.io
 
 # Localhost 
 #url: http://127.0.0.1:4000
